@@ -1,0 +1,1 @@
+print("soy un joven algo desesperado por el aprendizaje, siento que no he podido aprender lo suficiente de programacion como para ser feliz...")
