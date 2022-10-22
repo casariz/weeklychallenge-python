@@ -1,2 +1,2 @@
-# weeklychallenge
-Retos semanales brindados por MoureDev
+# weeklychallenge-python
+Retos semanales brindados por MoureDev, resueltos en python
