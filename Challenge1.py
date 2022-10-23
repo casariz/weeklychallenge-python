@@ -18,5 +18,24 @@
 #  *
 #  */
 
-def isAnagram(word1, word2):
-    pass
+#solucion dada por Casariz (Daniel Casallas)
+#Día: 23/10/2022
+def isAnagram(word1:str, word2:str):
+
+    bandera = True
+    anagram1 = list(word1)
+    anagram2 = list(reversed(word2))
+    if (anagram1 != anagram2):
+        bandera = False
+    else: 
+        bandera = True
+
+    return bandera
+
+
+firtWord = input("Ingrese la primera palabra: ")
+secondWord = input("Ingrese la segunda palabra: ")
+
+result = isAnagram(word1 = firtWord, word2 = secondWord)
+
+print("¿Son un anagrama?: ", result)
