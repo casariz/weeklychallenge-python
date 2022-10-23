@@ -15,4 +15,19 @@
 #  - Revisaré el ejercicio en directo desde Twitch el lunes siguiente al de su publicación.
 #  - Subiré una posible solución al ejercicio el lunes siguiente al de su publicación.
 
-print('fizz')
+# Solución dada por: Casariz (Daniel Casallas)
+# Día: 22/10/2022
+count = 0
+while True:
+    count+=1
+    
+    if count % 3 == 0 and count % 5==0:
+        print("fizzbuzz")
+    elif count % 5 == 0:
+        print("buzz")
+    elif count % 3 == 0:
+        print ("fizz")
+    else: print(count)
+    if count >=100:
+        break
+
